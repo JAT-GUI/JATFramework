@@ -14,11 +14,12 @@ public class sampleTest
 	public void testRegister() 
 	{	
 		webFactoryPattern webDriver = new webFactoryPattern(baseUrl);
-		WebDriver driver = webFactoryPattern.buildBrowser(webFactoryPattern.Browser_Chrome);
+		WebDriver driver = webFactoryPattern
+				.buildBrowser(webFactoryPattern.Browser_Chrome);
 		System.out.println(webDriver.getGooglePO().getBaseUrl());
 		webDriver.getGooglePO().getUrl();
 		webDriver.getGooglePO().enterSearchInputTextPath("hola mundo");
-		
+
 		try {
 			Thread.sleep(3500);
 			webDriver.getGoogleResultsPagePO().clickfirsResultLinkPath();

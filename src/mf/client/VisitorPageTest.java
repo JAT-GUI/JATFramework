@@ -20,13 +20,13 @@ public class VisitorPageTest
 			Thread.sleep(5000);
 			webDriver.getManesWinchsterHomePO().areBasicElementsDisplayed();
 			Thread.sleep(3500);
-			webDriver.getManesWinchsterHomePO().clickaboutButtonPath();
-			Thread.sleep(3500);
-			webDriver.getManesWinchsterHomePO().clickpracticesButtonPath();
-			Thread.sleep(3500);
-			webDriver.getManesWinchsterHomePO().clickcontactButtonPath();
-			Thread.sleep(3500);
-			driver.close();
+//			webDriver.getManesWinchsterHomePO().clickaboutButtonPath();
+//			Thread.sleep(3500);
+//			webDriver.getManesWinchsterHomePO().clickpracticesButtonPath();
+//			Thread.sleep(3500);
+//			webDriver.getManesWinchsterHomePO().clickcontactButtonPath();
+//			Thread.sleep(3500);
+//			driver.close();
 		}	 catch (Exception e) {
 		// TODO: handle exception
 		}

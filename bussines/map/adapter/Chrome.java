@@ -16,7 +16,7 @@ public class Chrome extends Browser{
 	@Override
 	public void launchBrowser(WebDriver driver) {
 		setDriver(driver);
-		System.setProperty("webdriver.chrome.driver", "bussines/browsers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "bussines/browsers/chromedriver");
 		setDriver(((new ChromeDriver())));
 		System.out.println("launching Chrome Browser");
 	}
